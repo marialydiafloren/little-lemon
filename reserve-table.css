@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li .reservation-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333; /* Button background color */
+    color: white; /* Text color */
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav ul li .nav-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background: white; /* Button background color */
+    color: #333; /* Text color */
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.reservations-hero {
+    background: #5a706a;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.reservations-hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.seating-options {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.seating-options label {
+    font-size: 1em;
+    margin: 0 20px;
+    font-size: 1.2em;
+}
+
+.reservation-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin: 10px 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.form-group select {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.reservation-images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.reservation-images img {
+    margin: 0 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #f4b400;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
